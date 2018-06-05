@@ -16,7 +16,7 @@ We have been doing our best to publish our source code and will publish it soon.
 Please give a star and watch our project!!!
 
 # 1.1. Presentation
-Shadow-box for ARM is a ARM TrustZone-based and practical kernel protector, and it was introduced at security conferences below.
+Shadow-box for ARM is an ARM TrustZone-based and practical kernel protector, and it was introduced at security conferences below.
  - [Black Hat Asia 2018](https://www.blackhat.com/asia-18/briefings.html#shadow-box-v2-the-practical-and-omnipotent-sandbox-for-arm): Shadow-box v2: The Practical and Omnipotent Sandbox for ARM
 
  You can watch the demo videos below.
@@ -28,10 +28,10 @@ Shadow-box for ARM is a ARM TrustZone-based and practical kernel protector, and 
 We always welcome your contributions. Issue report, bug fix, new feature implementation, everything is alright. Feel free to send us.
 
 # 1.3. License
-Shadow-box v2 has dual license (MIT and GPL v2) and other parts follow their own license.
+Shadow-box v2 has the dual license (MIT and GPL v2) and other parts follow their own license.
 
 # 2. Introduction of Shadow-Box for ARM
-Shadow-box for ARM, using virtualization technologies of x86 and ARM processor. Shadow-box for ARM inherits a novel architecture inspired by a shadow play from Shadow-box for x86, and we made Shadow-box for ARM from scratch. It utilizes OP-TEE (Open Platform Trusted Execution Environment) which follows GlobalPlatform TEE system architecture specification. Qualcomm and Samsung also follow the specification. Moreover, OP-TEE supports more than eleven manufacturers including Broadcom and NXP, therefore Shadow-box for ARM can be ported many ARM-based devices easily.
+Shadow-box for ARM, using virtualization technologies of x86 and ARM processor. Shadow-box for ARM inherits a novel architecture inspired by a shadow play from Shadow-box for x86, and we made Shadow-box for ARM from scratch. It utilizes OP-TEE (Open Platform Trusted Execution Environment) which follows GlobalPlatform TEE system architecture specification. Qualcomm and Samsung also follow the specification. Moreover, OP-TEE supports more than eleven manufacturers including Broadcom and NXP, therefore Shadow-box for ARM can be ported to many ARM-based devices easily.
 
 Shadow-box for ARM also utilizes integrity measurement architecture (IMA). IMA can verify signatures of executable files from the kernel. Therefore Shadow-box for ARM provides strict integrity of executable files. It has additional features such as hash-based kernel integrity monitor, workload-concerned monitoring, and remote attestation in comparison with Shadow-box for x86. 
 
